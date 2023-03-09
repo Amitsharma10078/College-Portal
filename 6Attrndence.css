@@ -1,0 +1,141 @@
+* {
+    margin: 0;
+    padding: 0;
+    color: whitesmoke;
+}
+
+/* This css nav bar and contain one box and text(p) */
+
+.Attendance {
+    color: red;
+    background-color: rgb(51, 33, 33);
+    height: 55px;
+    width: 98%;
+    padding-top: 10px;
+    padding-left: 30px;
+    position: sticky;
+    top: 0;
+    left: 0;
+}
+
+.Attendance p {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+/* This css for content conatin one bix that is photo */
+
+.content {
+    background-color: rgb(51, 33, 33);
+    height: 1130px;
+    width: 100%;
+}
+
+/* This  box contain four box */
+.photo {
+    background-color: rgb(51, 33, 33);
+    height: 290px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 20px;
+}
+
+.photo .photo1 {
+    background-color: rgb(51, 33, 33);
+    height: 272px;
+    width: 374px;
+    border: 2px red solid;
+    border-radius: 40%;
+    display: flex;
+
+}
+
+.photo .photo1 .img1 {
+    height: 222px;
+    width: 200px;
+    background-color: rgb(51, 33, 33);
+    text-align: center;
+    display: block;
+    margin: auto;
+    border-radius: 40%;
+
+}
+
+.photo .photo1 .per {
+    text-align: center;
+    height: 80px;
+    width: 100px;
+    display: block;
+    margin: auto;
+    background-color: rgb(51, 33, 33);
+}
+
+.per td {
+    padding: 5px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+.photo .photo1 .img1 img {
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    border: 2px red solid;
+}
+
+.photo .photo1 .Profile {
+    background-color: rgb(51, 33, 33);
+    height: 20px;
+    width: 40px;
+    display: block;
+    margin: auto;
+}
+
+
+
+/* This box for attendence list */
+
+.Attendance-list {
+    background-color: rgb(51, 33, 33);
+    height: 820px;
+    width: 100%;
+}
+
+.Attendance-list .list {
+    margin-top: 10px;
+
+}
+
+.Attendance-list .text1 {
+    background-color: rgb(51, 33, 33);
+    height: 35px;
+    width: 100%;
+    padding-top: 10px;
+    padding-left: 10px;
+    border: 5px green solid;
+    border-radius: 20px;
+}
+
+.Attendance-list .text1 h3 {
+    font-size: 25px;
+}
+
+th,
+td {
+    padding: 20px;
+    text-align: center;
+    border: 3px red solid;
+    border-radius: 10px;
+
+}
+th{
+    color: yellow;
+}
+button{
+    color: black;
+}
+button:hover{
+    text-decoration: underline;
+    color: green;
+}
