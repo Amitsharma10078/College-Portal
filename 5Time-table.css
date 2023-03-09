@@ -1,0 +1,154 @@
+/* This is css used for whole window */
+* {
+    margin: 0;
+    padding: 0;
+    color: red;
+}
+
+/* This css is use for nav bar and contain  box three box name is 1. logo,text,btn1 */
+
+.nav-bar {
+    background-color: rgb(51, 33, 33);
+    height: 85px;
+    width: 1513px;
+    border: 2px red solid;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    position: fixed;
+    top: 0;
+
+}
+/* this css is use  for log box  */
+
+.nav-bar .log {
+    background-color: rgb(51, 33, 33);
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+}
+
+/* log box img */
+
+.log img {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+
+
+}
+
+/* This is text box  */
+.nav-bar .text {
+    background-color: rgb(51, 33, 33);
+    height: 100px;
+    width: 730px;
+
+}
+
+/* This text box p tag conatin some text */
+.text p {
+    text-align: center;
+    font-size: 90px;
+    font-weight: bold;
+    color: royalblue;
+}
+
+/* This box is btn1 */
+.nav-bar .btn1 {
+    background-color: aqua;
+    height: 29px;
+    width: 59px;
+    border: 2px red solid;
+    text-align: center;
+    border-radius: 50px;
+
+
+}
+
+.nav-bar .btn1 a {
+    text-decoration: none;
+
+}
+
+.nav-bar .btn1 a:hover {
+    text-decoration: underline;
+    color: yellow;
+
+}
+/* This is 1 under box */
+
+.mainpages {
+    background-color: rgb(51, 33, 33);
+    height: 900px;
+    width: 100%;
+    margin-top: 120px;
+
+}
+/* This is box contain one box name is box1 */
+
+.Semester {
+    background-color: rgb(51, 33, 33);
+    height: 88px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+/* This box is belgon to box1(semester box) and take some text*/
+
+.Semester .sem {
+    text-align: center;
+    font-size: 20px;
+}
+
+ /* This box is belgon to box1(semester box) and take some text*/
+.Semester .year {
+    background-color: rgb(51, 33, 33);
+    height: 49px;
+    width: 200px;
+    text-align: center;
+}
+
+.Semester .year p {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+/* This css is use for table items contain some table data and table heading */
+.table-items {
+    background-color: rgb(51, 33, 33);
+    height: 830px;
+    width: 100%;
+}
+
+.table-items a {
+    text-decoration: none;
+    border: 2px black solid;
+    padding: 10px;
+    border-radius: 50px;
+    background-color: aqua;
+}
+
+.table-items a:hover {
+    color: green;
+    text-decoration: underline;
+    font-size: 25px;
+}
+
+/* This is  css is used for table heading and table details */
+
+th,
+td b {
+    color: yellow;
+}
+
+th,
+td {
+    border: 1px solid black;
+    border-radius: 10px;
+    text-align: center;
+    padding: 30px;
+
+}

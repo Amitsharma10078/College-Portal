@@ -1,0 +1,313 @@
+*{
+    margin: 0;
+    padding: 0;
+    color: orange;
+    background-color: rgb(51, 33, 33);
+
+}
+
+
+
+/*  This is navigation bar css */
+
+.regnavbar {
+    height: 170px;
+    width: 100vw;
+    position: fixed;
+    left: 0;
+    top: 0;
+}
+
+
+
+/* This is navigation bar css of logo  of box  css*/
+
+.regmid {
+    border: 2px red solid;
+    height: 150px;
+    width: 400px;
+    display: block;
+    margin: 10px auto;
+}
+
+.logoreg {
+    height: 100px;
+    width: 120px;
+    display: block;
+    margin: auto;
+    align-items: center;
+
+}
+
+
+/* this  is navigation bar of img log css */
+
+.logoreg img {
+    height: 100px;
+    width: 120px;
+    border-radius: 50%;
+
+
+}
+
+
+/* This is navigation bar  box text css */
+
+
+
+
+
+/* This is navigation bar text css */
+
+.reg-text p {
+    text-align: center;
+    font-size: 40px;
+    color: whitesmoke;
+}
+
+
+
+
+/* this is 1st under box css */
+
+.reg-page {
+    border: 2px red solid;
+    background-color: blue;
+    height: 1700px;;
+    width: 100%;
+    margin: 0px;
+
+}
+
+.scroll {
+    height: 40px;
+    width: 100%;
+    margin-top: 171px;
+    position: fixed;
+
+}
+
+
+
+/* This is 2nd under box css */
+
+.details {
+    height: 1700px;
+    width: 100%;
+    margin-top: 220px;
+    border: 2px red solid;
+
+
+    box-sizing: border-box;
+}
+
+
+
+
+
+/* This box take student and qualifations box  css */
+.box1 {
+    display: flex;
+    height: 520px;
+    width: 100%;
+
+}
+
+/* This is student details box css */
+
+.leftbox {
+
+    display: flex;
+    height: 510px;
+    width: 50%;
+    /* position: relative; */
+}
+
+.student-details {
+    display: flex;
+    width: 100%;
+}
+
+
+/* This is student details  left1 box css */
+.student-details .left1 {
+    height: 446px;
+    width: 52%;
+    padding: 15px;
+    margin: 5px;
+}
+
+
+/* This is student details  left2 box css */
+.student-details .left2 {
+    height: 446px;
+    width: 50%;
+    padding: 15px;
+    margin: 5px;
+
+}
+
+
+/* This is box of qualifation-details box css */
+.rightbox {
+    height: 510px;
+    width: 50%;
+
+}
+
+
+/* This is box of qualifation-details ten-marks box css */
+
+
+.qualifation-details .ten-marks {
+    height: 110px;
+
+
+}
+
+/* This is box of qualifation-details twelve-marks box css */
+
+.qualifation-details .twelve-marks {
+    height: 190px;
+
+}
+
+
+/* This is box of qualifation-details diploma-marks box css */
+
+.qualifation-details .diploma {
+    height: 170px;
+
+}
+
+input,
+option {
+    color: lightgreen;
+    text-align: center;
+}
+
+
+/* This is 2nd box conatin Extra Curriulum and parents details box */
+
+.box2 {
+    height: 413px;
+    width: 100%;
+    display: flex;
+}
+
+/* This box is Extra Curriulum box */
+
+.box2 .extra-curriclum {
+    height: 380px;
+    width: 60%;
+    padding: 5px;
+}
+
+fieldset input {
+    margin: 5px;
+}
+
+
+/* This box  parents details box */
+
+.box2 .parents-details {
+    height: 388px;
+    width: 40%;
+
+}
+
+
+/* This box contain local Parents details and comments */
+
+.box3 {
+    height: 300px;
+    width: 100%;
+    display: flex;
+
+}
+fieldset input:hover {
+    font-size: 20px;
+}
+
+.one:hover {
+    font-size: 20px;
+}
+
+
+
+.box3 .local-parents-details {
+    height: 283px;
+    width: 66%;
+
+
+}
+
+.box3 .comments {
+    height: 283px;
+    width: 34;
+
+
+}
+
+/* This box contain temporary and parament box */
+
+.box4 {
+    height: 252px;
+    width: 100%;
+}
+
+.box4 .Temporary {
+    height: 126px;
+    width: 100%;
+}
+
+.box4 .parament {
+    height: 107px;
+    width: 100%;
+
+}
+
+/* This box contain submit,reset,allfiled box */
+
+
+.final {
+    height: 120px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.allfield {
+    height: 50px;
+    width: 50%;
+
+}
+
+.submit {
+    height: 50px;
+    width: 60px;
+    margin-top: 30px;
+}
+
+.submit input:hover,
+.reset input:hover {
+    text-decoration: underline;
+    border-radius: 30%;
+    color: yellow;
+    
+
+}
+
+.submit input:active,
+.reset input:active {
+    color: gray;
+}
+
+.reset {
+    height: 50px;
+    width: 60px;
+    margin-right: 40px;
+    margin-top: 30px;
+
+}

@@ -1,0 +1,65 @@
+* {
+    margin: 0;
+    padding: 0;
+    color: springgreen;
+}
+
+.navbar {
+    background-color: rgb(51, 33, 33);
+    height: 102px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+.navbar .text {
+    background-color: rgb(51, 33, 33);
+    height: 100px;
+    width: 510px;
+    text-align: center;
+
+}
+
+.navbar .text p {
+    font-size: 70px;
+    font-weight: bold;
+    color: red;
+}
+
+.main {
+    background-color: rgb(51, 33, 33);
+    height: 1800px;
+    width: 100%;
+    margin-top: 120px;
+}
+
+.main .professor_details {
+    background-color: rgb(51, 33, 33);
+    height: 1800px;
+    width: 100%;
+
+}
+.professor_details img{
+    height: 200px;
+    width: 200px;
+}
+table{
+    width: 100%;
+}
+
+th,
+td b {
+    color: yellow;
+}
+
+th,
+td {
+    border: 1px solid black;
+    border-radius: 10px;
+    text-align: center;
+    padding: 30px;
+
+}
