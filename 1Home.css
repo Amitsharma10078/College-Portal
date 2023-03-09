@@ -1,0 +1,222 @@
+/* Universal tag is used to margin-0 and padding-0 */
+
+* {
+    margin: 0;
+    padding: 0;
+    color: whitesmoke;
+}
+
+
+
+/* This main class 1st navigation bar  */
+.main {
+    background-color: black;
+    position: fixed;
+    display: flex;
+    min-width: 100vw;
+    justify-content: space-between;
+    top: 0;
+}
+
+
+
+/* This main class: 1st navigation bar "Left side : in the logo(img) and university name " */
+
+.left {
+    background-color: black;
+    margin: 10px;
+    display: block;
+}
+
+.left .logo img {
+    height: 70px;
+    display: block;
+    margin: auto;
+    border-radius: 30px;
+}
+
+.left .logo-text p {
+    font-size: 20px;
+}
+
+
+/* This main class: 1st navigation bar "Middle": I this only text (university name)   */
+
+
+.mid {
+    background-color: black;
+    height: 45px;
+    margin-top: 43px;
+}
+
+.mid p {
+    font-size: 40px;
+    color: red;
+}
+
+
+
+
+/* This main class: 1st navigation bar "Right side": in this "Regersatation ,Log-out and Sigin button" */
+.right {
+    background-color: black;
+    height: 35px;
+    margin-top: 43px;
+    margin-right: 10px;
+}
+
+.right a {
+    border-radius: 30px;
+    margin: 5px;
+    padding: 5px;
+    background-color: black;
+    text-decoration: none;
+    margin: 10px;
+}
+
+.right a:hover {
+    color: yellow;
+    text-decoration: underline;
+    font-size: 20px;
+}
+
+.right a:active {
+    color: gray;
+}
+
+
+
+
+/* This is 2nd navigation bar  */
+.navbar-text {
+    background-color: black;
+    position: fixed;
+    top: 114px;
+    text-align: center;
+    min-width: 100vw;
+}
+
+.navbar-text li {
+    display: inline-block;
+    margin: 10px;
+    padding: 10px;
+}
+
+.navbar-text li a {
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.navbar-text li a:hover {
+    list-style-type: none;
+    text-decoration: underline;
+    color: yellow;
+
+}
+
+.navbar-text li a:active {
+    color: gray;
+}
+
+
+/* This is Home page css  */
+.Home {
+    height: 100vh;
+    width: 100vw;
+    background-color: rgb(51, 33, 33);
+}
+
+
+/* This is Home items 1 */
+
+.home-items {
+    width: 100%;
+    position: fixed;
+    top: 260px;
+    right: 0;
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(51, 33, 33);
+
+
+}
+
+.home-items img {
+    height: 100px;
+    border-radius: 70px;
+
+}
+
+.home-items p {
+    text-align: center;
+    margin: 10px;
+    font-weight: bold;
+}
+
+.home-items p:hover {
+    color: yellow;
+
+}
+
+.home-items a {
+    text-decoration: none;
+
+}
+
+.home-items a:hover {
+    text-decoration: underline;
+
+}
+
+.home-items a:active {
+    color: gray;
+}
+
+
+/* This is Home items 2 */
+
+
+.home-items1 {
+    width: 100%;
+    position: fixed;
+    top: 460px;
+    right: 0;
+    display: flex;
+    /* box-sizing: ; */
+    justify-content: space-around;
+    background-color: rgb(51, 33, 33);
+
+
+}
+
+.home-items1 img {
+    height: 100px;
+    border-radius: 70px;
+
+}
+
+.home-items1 p {
+    text-align: center;
+    margin: 10px;
+    font-weight: bold;
+
+}
+
+.home-items1 p:hover {
+    color: yellow;
+
+}
+
+.home-items1 a {
+    text-decoration: none;
+
+}
+
+.home-items1 a:hover {
+    text-decoration: underline;
+
+}
+
+.home-items1 a:active {
+    color: gray;
+}

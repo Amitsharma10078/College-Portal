@@ -1,0 +1,234 @@
+/* This used for whole window */
+* {
+    margin: 0;
+    padding: 0;
+    color: red;
+}
+
+/* This box is 1st under box*/
+.mainpage {
+    background-color: rgb(51, 33, 33);
+    height: 3444px;
+}
+
+/* This is nav bar contain one box:- one logo nand text */
+
+.navbar {
+    background-color: rgb(51, 33, 33);
+    height: 134px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    position: fixed;
+}
+
+/* This box conatin img of university */
+
+.navbar .mid {
+    background-color: rgb(51, 33, 33);
+    height: 134px;
+    width: 276px;
+
+
+}
+
+
+/* This box of img  */
+
+.navbar .log {
+    height: 100px;
+    width: 100px;
+    background-color: rgb(51, 33, 33);
+    display: block;
+    margin: auto;
+    border-radius: 50%;
+
+
+}
+
+.navbar .log img {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+}
+
+/* This box contain text of university name  */
+
+.navbar .text {
+    background-color: rgb(51, 33, 33);
+    text-align: center;
+    font-size: 30px;
+}
+
+
+/* This box conatin login and sign-up,big1 and big2 boxs  */
+
+.log-in-sign-in {
+    background-color: rgb(51, 33, 33);
+    height: 530px;
+    width: 100%;
+    position: fixed;
+    top: 160px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+/* This big1 box conatin two box1 and box2  */
+
+.big1 {
+    background-color: rgb(51, 33, 33);
+    height: 400px;
+    width: 600px;
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    align-items: center;
+    border: 2px red solid;
+    border-radius: 100px;
+}
+
+
+.box1 {
+    background-color: rgb(51, 33, 33);
+    height: 30px;
+    width: 80px;
+    border: 2px red solid;
+    text-align: center;
+    border-radius: 20px;
+    color: yellow;
+
+}
+
+/* This box contain form of login box */
+
+.box2 {
+    background-color: bisque;
+    height: 200px;
+    width: 300px;
+    display: block;
+    position: relative;
+    border: 2px red solid;
+    text-align: center;
+    margin: 15px auto;
+    padding: 50px;
+
+
+}
+
+.btn {
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.forget {
+    position: absolute;
+    bottom: 70px;
+    right: 150px;
+}
+
+/* This statement is used when th cusor hover the per form some task */
+
+.box1:hover,
+.big1:hover {
+    position: absolute;
+    display: block;
+    z-index: 10;
+}
+
+/* This box2 of login box */
+
+.box2:hover {
+    transform: skew(10deg);
+    border-radius: 50px;
+    background-image: linear-gradient(to right bottom, orange, white, green);
+}
+
+.big1:hover {
+    transform: scale(1.2);
+}
+
+.log-items {
+    height: 300px;
+    width: 300px;
+    border-radius: 20px;
+    text-align: center;
+}
+
+/* This is big2 box contain signbox(small box) and sign-items(big box) */
+.big2 {
+    background-color: rgb(51, 33, 33);
+    height: 400px;
+    width: 600px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 2px red solid;
+    border-radius: 100px;
+
+}
+
+/* This box is samll box of signup box */
+
+.big2 .sign {
+    background-color: rgb(51, 33, 33);
+    height: 30px;
+    width: 80px;
+    border: 2px red solid;
+    text-align: center;
+    border-radius: 20px;
+    color: yellow;
+}
+
+/* This is sign-items conatin signup form  */
+
+.big2 .sign-items {
+    background-color: bisque;
+    height: 200px;
+    width: 300px;
+    position: relative;
+    border: 2px red solid;
+    text-align: center;
+    margin: 15px auto;
+    padding: 50px;
+
+}
+
+.sign:hover,
+.big2:hover {
+    position: absolute;
+    display: block;
+}
+
+.sign-items:hover {
+    transform: skew(10deg);
+    border-radius: 50px;
+    background-image: linear-gradient(to right bottom, orange, white, green);
+}
+
+.big2:hover {
+    transform: scale(1.2);
+}
+
+input {
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+}
+
+input:hover,
+label:hover,
+.btn1 a:hover,
+.btn3 a:hover,
+.forget a:hover {
+    font-size: 20px;
+    font-weight: bold;
+    color: green;
+    text-decoration: underline;
+}
